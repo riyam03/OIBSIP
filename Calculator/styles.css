@@ -1,0 +1,54 @@
+body{
+    font-family: 'Times New Roman', Times, serif ;
+}
+h1{
+    text-align: center;
+}
+.calculator {
+    padding: 10px;
+    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    background-color: #d4c6d5;
+    box-shadow: rgb(0 0 0 / 50%) 0px 10px 20px, rgb(0 0 0 / 50%) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border: solid black 2px;
+    color: black;
+    border-radius: 10px;
+    width: 98%;
+    height: 65%;
+    font-size: 25px;
+}
+
+#btn {
+    background-color: #828c99;
+}
+
+input[type=button] {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #191f25;
+    color: white;
+    border: solid rgb(0 0 0) 2px;
+    width: 80%;
+    border-radius: 50%;
+    height: 95%;
+    outline: none;
+    font-size:30px
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.operation{
+    height: 73px;
+    width: 90px
+}
